@@ -52,7 +52,7 @@ tags
 # Packages
 node_modules/*
 .tmp
-test/
+
 
 # Sublime
 *.sublime-project
@@ -62,5 +62,7 @@ test/
 app/_bower_components
 
 # Output folders
+dist
+public
 serve
 site
