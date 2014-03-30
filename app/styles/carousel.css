@@ -72,16 +72,29 @@ body {
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 20px;
-  text-align: center;
+  text-align:center;
 }
+
 .marketing h2 {
   font-weight: normal;
   color:#c7531a;
 }
+
+.marketing ul {
+  text-align:left;
+}
+
+.marketing ul li {
+  list-style: none;
+  color: #bbbbbb;
+}
+
+
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
   color:#bbbbbb;
+
 }
 
 
@@ -99,6 +112,33 @@ body {
   letter-spacing: -1px;
 }
 
+
+@media (min-width: 768px) {
+  .marketing {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+  .featurette-heading .text-muted {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
 
 
 /* RESPONSIVE CSS
