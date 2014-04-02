@@ -1,0 +1,1 @@
+"use strict";angular.module("wolletpaintinggithubcomApp",["ngCookies","ngResource","ngSanitize","ngRoute"]),angular.module("wolletpaintinggithubcomApp").controller("MainCtrl",["$scope",function(a){a.awesomeThings=["HTML5 Boilerplate","AngularJS","Karma"]}]);
